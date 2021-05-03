@@ -21,6 +21,6 @@ To invoke with test data, first modify `data/test-request.json` to set the "to" 
 
 
 ```
-aws ses verify-email-identity --email-address mfolivas@gmail.com #check e-mail
+aws ses verify-email-identity --email-address foo@bar.com #check e-mail
 npm run invoke
 ```

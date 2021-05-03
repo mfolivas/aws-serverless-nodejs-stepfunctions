@@ -1,0 +1,25 @@
+{
+  "name": "aws-serverless-nodejs-stepfunctions",
+  "version": "1.0.0",
+  "description": "A Serverless template with Lambda functions for scheduling future emails from your app using AWS Lambda and Step Functions.",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "sls deploy -v",
+    "invoke": "sls invoke -f ScheduleEmail -l -p ./data/task-request.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mfolivas/aws-serverless-nodejs-stepfunctions.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mfolivas/aws-serverless-nodejs-stepfunctions/issues"
+  },
+  "homepage": "https://github.com/mfolivas/aws-serverless-nodejs-stepfunctions#readme",
+  "devDependencies": {
+    "aws-sdk": "^2.897.0",
+    "serverless": "^2.39.0",
+    "serverless-step-functions": "^2.30.0"
+  }
+}

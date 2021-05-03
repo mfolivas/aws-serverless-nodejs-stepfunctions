@@ -17,8 +17,10 @@ Deploy:
 npm run deploy
 ```
 
-To invoke with test data, first modify `data/test-request.json` to set the "to" email address and due date. Then run:
+To invoke with test data, first modify `data/test-request.json` to set the "to" email address and due date.  Then, validate the e-mail by doing the `aws ses` cli.  You will need to accept it via e-mail. Then run:
+
 
 ```
+aws ses verify-email-identity --email-address mfolivas@gmail.com #check e-mail
 npm run invoke
 ```

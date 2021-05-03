@@ -1,7 +1,7 @@
 {
-  "dueDate": "2018-11-16T13:55:25.000Z",
+  "dueDate": "2021-05-03T00:08:00.000Z",
   "email": {
-      "to": ["test@example.com"],
+      "to": ["foo@bar.com"],
       "subject": "testing step function scheduling",
       "textBody": "TEXT body.\nsecond line.",
       "htmlBody": "<strong>HTML</strong> body<br>second line."
